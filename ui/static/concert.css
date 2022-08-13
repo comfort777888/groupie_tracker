@@ -1,0 +1,55 @@
+body {
+    /* background: #e9c7d8; */
+    background-image: url(./img/backphoto.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Cinzel', serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 20px;
+    /* display: flex;
+    justify-content: center; */
+}
+.home-page{
+    display: block;
+    justify-content: center;
+
+}
+.project{
+    display: block;
+    justify-content: center;
+}
+.column {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    margin-top: 108px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 0 15px rgb(97, 96, 96);
+    border-radius: 15px;
+    font-size: 20px;
+}
+span{
+    display: block;
+}
+.locations{
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 31px;
+}

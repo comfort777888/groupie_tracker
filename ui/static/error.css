@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{ 
+    background: #e9c7d8;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(./img/fon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Cinzel', serif;
+}
+
+p {
+    margin: 0;
+    font-size: 45px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+h1{
+    margin: 0;
+    font-size: 50px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background: none;
+}

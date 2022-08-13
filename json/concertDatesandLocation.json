@@ -1,0 +1,18 @@
+{
+	"id": 2,
+	"datesLocations": {
+		"noumea-new_caledonia": [
+			"15-11-2019"
+		],
+		"papeete-french_polynesia": [
+			"16-11-2019"
+		],
+		"playa_del_carmen-mexico": [
+			"05-12-2019",
+			"06-12-2019",
+			"07-12-2019",
+			"08-12-2019",
+			"09-12-2019"
+		]
+	}
+}

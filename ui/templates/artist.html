@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/static/favi.png">
+    <link rel="stylesheet" href="/static/artist.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&display=swap" rel="stylesheet">   
+    <title>{{.Name}} info</title>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <div class="card">
+                <img src="{{.Image}}" class="artist-img">
+                <h2 class="artist"> {{.Name}}</h2>
+                <p class="text">Established: {{.CreationDate}}</p>
+                <p>First Album: {{.FirstAlbum}}</p>
+                <p>Members of {{.Name}}: </p>
+                <div class="members">
+                    {{range .Members}}
+                <span class="members-item">{{.}}</span> 
+                    
+                    {{end}}
+                </div>
+            </div>
+        </div>
+        <a href="/relations/{{.ID}}" class="relation"  >Concerts of {{.Name}}</a>
+        <br>
+            <!-- <a href="/">Back</a> -->
+            <footer> 
+                <nav>
+                    <div class="footer">
+                    <span class="home-page"><a href="/" class="home">Home</a></span>
+                    <span class="project"><a href="https://01.alem.school/git/M.a_k/groupie-tracker" class="home">Project</a></span>
+                    </div>
+                </nav>
+            </footer>
+    </div>
+</body>
+</html>

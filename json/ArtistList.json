@@ -1,0 +1,710 @@
+[
+	{
+		"id": 1,
+		"image": "https://groupietrackers.herokuapp.com/api/images/queen.jpeg",
+		"name": "Queen",
+		"members": [
+			"Freddie Mercury",
+			"Brian May",
+			"John Daecon",
+			"Roger Meddows-Taylor",
+			"Mike Grose",
+			"Barry Mitchell",
+			"Doug Fogie"
+		],
+		"creationDate": 1970,
+		"firstAlbum": "14-12-1973",
+		"datesLocations": null
+	},
+	{
+		"id": 2,
+		"image": "https://groupietrackers.herokuapp.com/api/images/soja.jpeg",
+		"name": "SOJA",
+		"members": [
+			"Jacob Hemphill",
+			"Bob Jefferson",
+			"Ryan \"Byrd\" Berty",
+			"Ken Brownell",
+			"Patrick O'Shea",
+			"Hellman Escorcia",
+			"Rafael Rodriguez",
+			"Trevor Young"
+		],
+		"creationDate": 1997,
+		"firstAlbum": "05-06-2002",
+		"datesLocations": null
+	},
+	{
+		"id": 3,
+		"image": "https://groupietrackers.herokuapp.com/api/images/pinkfloyd.jpeg",
+		"name": "Pink Floyd",
+		"members": [
+			"David Gilmour",
+			"Syd Barrett",
+			"Roger Waters",
+			"Richard Wright",
+			"Nick Manson",
+			"Bob Klose"
+		],
+		"creationDate": 1965,
+		"firstAlbum": "05-08-1967",
+		"datesLocations": null
+	},
+	{
+		"id": 4,
+		"image": "https://groupietrackers.herokuapp.com/api/images/scorpions.jpeg",
+		"name": "Scorpions",
+		"members": [
+			"Klaus Meine",
+			"Rudolf Schenker",
+			"Matthias Jabs",
+			"Pawel Maciwoda",
+			"Mikkey Dee"
+		],
+		"creationDate": 1965,
+		"firstAlbum": "21-04-1979",
+		"datesLocations": null
+	},
+	{
+		"id": 5,
+		"image": "https://groupietrackers.herokuapp.com/api/images/xxxtentacion.jpeg",
+		"name": "XXXTentacion",
+		"members": [
+			"Jahseh Dwayne Ricardo Onfroy"
+		],
+		"creationDate": 2013,
+		"firstAlbum": "07-09-2017",
+		"datesLocations": null
+	},
+	{
+		"id": 6,
+		"image": "https://groupietrackers.herokuapp.com/api/images/macmiller.jpeg",
+		"name": "Mac Miller",
+		"members": [
+			"Malcolm James McCormick"
+		],
+		"creationDate": 2007,
+		"firstAlbum": "29-06-2013",
+		"datesLocations": null
+	},
+	{
+		"id": 7,
+		"image": "https://groupietrackers.herokuapp.com/api/images/joynerlucas.jpeg",
+		"name": "Joyner Lucas",
+		"members": [
+			"Gary Maurice Lucas Jr."
+		],
+		"creationDate": 2007,
+		"firstAlbum": "13-05-2011",
+		"datesLocations": null
+	},
+	{
+		"id": 8,
+		"image": "https://groupietrackers.herokuapp.com/api/images/kencricklamar.jpeg",
+		"name": "Kendrick Lamar",
+		"members": [
+			"Kendrick Lamar Duckworth"
+		],
+		"creationDate": 2004,
+		"firstAlbum": "03-11-2012",
+		"datesLocations": null
+	},
+	{
+		"id": 9,
+		"image": "https://groupietrackers.herokuapp.com/api/images/acdc.jpeg",
+		"name": "ACDC",
+		"members": [
+			"Angus Young",
+			"Chris Slade",
+			"Stevie Young",
+			"Axl Rose"
+		],
+		"creationDate": 1973,
+		"firstAlbum": "11-05-1977",
+		"datesLocations": null
+	},
+	{
+		"id": 10,
+		"image": "https://groupietrackers.herokuapp.com/api/images/pearljam.jpeg",
+		"name": "Pearl Jam",
+		"members": [
+			"Eddie Vedder",
+			"Mike McCready",
+			"Stone Gossard",
+			"Jeff Ament",
+			"Matt Cameron"
+		],
+		"creationDate": 1990,
+		"firstAlbum": "03-07-1992",
+		"datesLocations": null
+	},
+	{
+		"id": 11,
+		"image": "https://groupietrackers.herokuapp.com/api/images/katyperry.jpeg",
+		"name": "Katy Perry",
+		"members": [
+			"Katheryn Elizabeth Hudson"
+		],
+		"creationDate": 2001,
+		"firstAlbum": "04-10-2008",
+		"datesLocations": null
+	},
+	{
+		"id": 12,
+		"image": "https://groupietrackers.herokuapp.com/api/images/rihanna.jpeg",
+		"name": "Rihanna",
+		"members": [
+			"Robyn Rihanna Fenty"
+		],
+		"creationDate": 2003,
+		"firstAlbum": "10-09-2005",
+		"datesLocations": null
+	},
+	{
+		"id": 13,
+		"image": "https://groupietrackers.herokuapp.com/api/images/genesis.jpeg",
+		"name": "Genesis",
+		"members": [
+			"Mike Rutherford",
+			"Tony Banks",
+			"Phil Collins",
+			"Chester Thompson",
+			"Daryl Stuermer"
+		],
+		"creationDate": 1967,
+		"firstAlbum": "14-10-1972",
+		"datesLocations": null
+	},
+	{
+		"id": 14,
+		"image": "https://groupietrackers.herokuapp.com/api/images/philcollins.jpeg",
+		"name": "Phil Collins",
+		"members": [
+			"Phil Collins"
+		],
+		"creationDate": 1966,
+		"firstAlbum": "21-02-1981",
+		"datesLocations": null
+	},
+	{
+		"id": 15,
+		"image": "https://groupietrackers.herokuapp.com/api/images/ledzeppelin.jpeg",
+		"name": "Led Zeppelin",
+		"members": [
+			"Jimmy Page",
+			"John Paul Jones",
+			"Robert Plant",
+			"John Bonham"
+		],
+		"creationDate": 1968,
+		"firstAlbum": "12-04-1969",
+		"datesLocations": null
+	},
+	{
+		"id": 16,
+		"image": "https://groupietrackers.herokuapp.com/api/images/jimihendrix.jpeg",
+		"name": "The Jimi Hendrix Experience",
+		"members": [
+			"Jimi Hendrix",
+			"Mitch Mitchell",
+			"Noel Redding",
+			"Billy Cox"
+		],
+		"creationDate": 1966,
+		"firstAlbum": "27-05-1967",
+		"datesLocations": null
+	},
+	{
+		"id": 17,
+		"image": "https://groupietrackers.herokuapp.com/api/images/beegees.jpeg",
+		"name": "Bee Gees",
+		"members": [
+			"Barry Gib",
+			"Robin Gibb",
+			"Maurice Gibb"
+		],
+		"creationDate": 1958,
+		"firstAlbum": "12-08-1967",
+		"datesLocations": null
+	},
+	{
+		"id": 18,
+		"image": "https://groupietrackers.herokuapp.com/api/images/deeppurple.jpeg",
+		"name": "Deep Purple",
+		"members": [
+			"Ian Paice",
+			"Ian Gillan",
+			"Roger Glover",
+			"Steve Morse",
+			"Don Airey"
+		],
+		"creationDate": 1968,
+		"firstAlbum": "24-01-1970",
+		"datesLocations": null
+	},
+	{
+		"id": 19,
+		"image": "https://groupietrackers.herokuapp.com/api/images/aerosmith.jpeg",
+		"name": "Aerosmith",
+		"members": [
+			"Steven Tyler",
+			"Tom Hamilton",
+			"Joey Kramer",
+			"Joe Perry",
+			"Brad Whitford"
+		],
+		"creationDate": 1970,
+		"firstAlbum": "05-09-1987",
+		"datesLocations": null
+	},
+	{
+		"id": 20,
+		"image": "https://groupietrackers.herokuapp.com/api/images/direstraits.jpeg",
+		"name": "Dire Straits",
+		"members": [
+			"Mark Knopfler",
+			"David Knopfler",
+			"John Illsley",
+			"Pick Withers"
+		],
+		"creationDate": 1977,
+		"firstAlbum": "22-07-1978",
+		"datesLocations": null
+	},
+	{
+		"id": 21,
+		"image": "https://groupietrackers.herokuapp.com/api/images/mamonasassassinas.jpeg",
+		"name": "Mamonas Assassinas",
+		"members": [
+			"Dinho",
+			"Bento Hinoto",
+			"Júlio Rasec",
+			"Sérgio Reoli",
+			"Samuel Reis de Oliveira"
+		],
+		"creationDate": 1995,
+		"firstAlbum": "23-06-1995",
+		"datesLocations": null
+	},
+	{
+		"id": 22,
+		"image": "https://groupietrackers.herokuapp.com/api/images/30.jpeg",
+		"name": "Thirty Seconds to Mars",
+		"members": [
+			"Jared Leto",
+			"Shannon Leto",
+			"Tomo Miličević",
+			"Matt Wachter",
+			"Solon Bixler"
+		],
+		"creationDate": 1998,
+		"firstAlbum": "27-06-2002",
+		"datesLocations": null
+	},
+	{
+		"id": 23,
+		"image": "https://groupietrackers.herokuapp.com/api/images/imagineDragons.jpeg",
+		"name": "Imagine Dragons",
+		"members": [
+			"Dan Reynolds",
+			"Daniel Wayne Sermon",
+			"Ben McKee"
+		],
+		"creationDate": 2008,
+		"firstAlbum": "04-09-2012",
+		"datesLocations": null
+	},
+	{
+		"id": 24,
+		"image": "https://groupietrackers.herokuapp.com/api/images/juiceWrld.jpeg",
+		"name": "Juice Wrld",
+		"members": [
+			" Jarad Higgins"
+		],
+		"creationDate": 2015,
+		"firstAlbum": "23-05-2018",
+		"datesLocations": null
+	},
+	{
+		"id": 25,
+		"image": "https://groupietrackers.herokuapp.com/api/images/logic.jpeg",
+		"name": "Logic",
+		"members": [
+			"Sir Robert Bryson Hall II"
+		],
+		"creationDate": 2009,
+		"firstAlbum": "22-09-2015",
+		"datesLocations": null
+	},
+	{
+		"id": 26,
+		"image": "https://groupietrackers.herokuapp.com/api/images/alecBeenjamin.jpeg",
+		"name": "Alec Benjamin",
+		"members": [
+			"Alec Benjamin"
+		],
+		"creationDate": 2013,
+		"firstAlbum": "15-11-2018",
+		"datesLocations": null
+	},
+	{
+		"id": 27,
+		"image": "https://groupietrackers.herokuapp.com/api/images/bobbyMcFerrin.jpeg",
+		"name": "Bobby McFerrins",
+		"members": [
+			"Bobby McFerrin"
+		],
+		"creationDate": 1977,
+		"firstAlbum": "01-09-1982",
+		"datesLocations": null
+	},
+	{
+		"id": 28,
+		"image": "https://groupietrackers.herokuapp.com/api/images/R3HAB.jpeg",
+		"name": "R3HAB",
+		"members": [
+			"Fadil El Ghoul"
+		],
+		"creationDate": 2008,
+		"firstAlbum": "09-12-2014",
+		"datesLocations": null
+	},
+	{
+		"id": 29,
+		"image": "https://groupietrackers.herokuapp.com/api/images/postmalone.jpeg",
+		"name": "Post Malone",
+		"members": [
+			"Post Malone"
+		],
+		"creationDate": 2013,
+		"firstAlbum": "13-05-2016",
+		"datesLocations": null
+	},
+	{
+		"id": 30,
+		"image": "https://groupietrackers.herokuapp.com/api/images/travisScott.jpeg",
+		"name": "Travis Scott",
+		"members": [
+			"Jacques Bermon Webster II"
+		],
+		"creationDate": 2008,
+		"firstAlbum": "18-08-2014",
+		"datesLocations": null
+	},
+	{
+		"id": 31,
+		"image": "https://groupietrackers.herokuapp.com/api/images/jCole.jpeg",
+		"name": "J. Cole",
+		"members": [
+			"Jermaine Lamarr Cole"
+		],
+		"creationDate": 2007,
+		"firstAlbum": "04-05-2007",
+		"datesLocations": null
+	},
+	{
+		"id": 32,
+		"image": "https://groupietrackers.herokuapp.com/api/images/nickelback.jpeg",
+		"name": "Nickelback",
+		"members": [
+			"Chad Kroeger",
+			"Ryan Peake",
+			"Mike Kroeger",
+			"Daniel Adair",
+			"Brandon Kroeger",
+			"Ryan Vikedal",
+			"Mitch Guindon"
+		],
+		"creationDate": 1995,
+		"firstAlbum": "04-09-1996",
+		"datesLocations": null
+	},
+	{
+		"id": 33,
+		"image": "https://groupietrackers.herokuapp.com/api/images/mobbDeep.jpeg",
+		"name": "Mobb Deep",
+		"members": [
+			"Prodigy",
+			"Havoc"
+		],
+		"creationDate": 1991,
+		"firstAlbum": "23-04-1993",
+		"datesLocations": null
+	},
+	{
+		"id": 34,
+		"image": "https://groupietrackers.herokuapp.com/api/images/gunsNRoses.jpeg",
+		"name": "Guns N' Roses",
+		"members": [
+			"Axl Rose",
+			"Duff McKagan",
+			"Slash",
+			"Dizzy Reed",
+			"Richard Fortus",
+			"Frank Ferrer",
+			"Melissa Reese"
+		],
+		"creationDate": 1985,
+		"firstAlbum": "21-07-1987",
+		"datesLocations": null
+	},
+	{
+		"id": 35,
+		"image": "https://groupietrackers.herokuapp.com/api/images/nwa.jpeg",
+		"name": "NWA",
+		"members": [
+			"Ice Cube",
+			"Eazy-E",
+			"Dr. Dre",
+			"MC Ren",
+			"DJ Yella",
+			"The D.O.C.",
+			"Arabian Prince"
+		],
+		"creationDate": 1998,
+		"firstAlbum": "03-11-1998",
+		"datesLocations": null
+	},
+	{
+		"id": 36,
+		"image": "https://groupietrackers.herokuapp.com/api/images/u2.jpeg",
+		"name": "U2",
+		"members": [
+			"Bono",
+			"The Edge",
+			"Adam Clayton",
+			"Larry Mullen Jr.",
+			"Ivan McCormick",
+			"Peter Martin",
+			"Dick Evans"
+		],
+		"creationDate": 1976,
+		"firstAlbum": "06-12-1980",
+		"datesLocations": null
+	},
+	{
+		"id": 37,
+		"image": "https://groupietrackers.herokuapp.com/api/images/arcticmonkeys.jpeg",
+		"name": "Arctic Monkeys",
+		"members": [
+			"Alex Turner",
+			"Matt Helders",
+			"Jamie Cook",
+			"Nick O'Malley",
+			"Andy Nicholson",
+			"Glyn Jones"
+		],
+		"creationDate": 2002,
+		"firstAlbum": "23-04-2007",
+		"datesLocations": null
+	},
+	{
+		"id": 38,
+		"image": "https://groupietrackers.herokuapp.com/api/images/fallOutBoy.jpeg",
+		"name": "Fall Out Boy",
+		"members": [
+			"Pete Wentz",
+			"Patrick Stump",
+			"Andy Hurley",
+			"Joe Trohman"
+		],
+		"creationDate": 2001,
+		"firstAlbum": "25-03-2003",
+		"datesLocations": null
+	},
+	{
+		"id": 39,
+		"image": "https://groupietrackers.herokuapp.com/api/images/gorillaz.jpeg",
+		"name": "Gorillaz",
+		"members": [
+			"Damon Albarn",
+			"Jamie Hewlett",
+			"Remi Kabaka Jr."
+		],
+		"creationDate": 1998,
+		"firstAlbum": "26-03-2001",
+		"datesLocations": null
+	},
+	{
+		"id": 40,
+		"image": "https://groupietrackers.herokuapp.com/api/images/eagles.jpeg",
+		"name": "Eagles",
+		"members": [
+			"Glenn Frey",
+			"Don Henley",
+			"Randy Meisner",
+			"Bernie Leadon"
+		],
+		"creationDate": 1971,
+		"firstAlbum": "01-06-1972",
+		"datesLocations": null
+	},
+	{
+		"id": 41,
+		"image": "https://groupietrackers.herokuapp.com/api/images/linkinpark.jpeg",
+		"name": "Linkin Park",
+		"members": [
+			"Chester Bennington",
+			"Mike Shinoda",
+			"Brad Delson",
+			"Dave Farrell",
+			"Joe Hahn",
+			"Rob Bourdon"
+		],
+		"creationDate": 1996,
+		"firstAlbum": "27-01-2001",
+		"datesLocations": null
+	},
+	{
+		"id": 42,
+		"image": "https://groupietrackers.herokuapp.com/api/images/redhotchilipeppers.jpeg",
+		"name": "Red Hot Chili Peppers",
+		"members": [
+			"Anthony Kiedis",
+			"Flea",
+			"Chad Smith",
+			"Josh Klinghoffer"
+		],
+		"creationDate": 1983,
+		"firstAlbum": "10-02-1990",
+		"datesLocations": null
+	},
+	{
+		"id": 43,
+		"image": "https://groupietrackers.herokuapp.com/api/images/eminem.jpeg",
+		"name": "Eminem",
+		"members": [
+			"Marshall Bruce Mathers"
+		],
+		"creationDate": 1996,
+		"firstAlbum": "10-04-1999",
+		"datesLocations": null
+	},
+	{
+		"id": 44,
+		"image": "https://groupietrackers.herokuapp.com/api/images/greenday.jpeg",
+		"name": "Green Day",
+		"members": [
+			"Billie Joe Armstrong",
+			"Mike Dirnt",
+			"Tré Cool"
+		],
+		"creationDate": 1986,
+		"firstAlbum": "18-06-1994",
+		"datesLocations": null
+	},
+	{
+		"id": 45,
+		"image": "https://groupietrackers.herokuapp.com/api/images/metallica.jpeg",
+		"name": "Metallica",
+		"members": [
+			"James Hetfield",
+			"Lars Ulrich",
+			"Kirk Hammett",
+			"Robert Trujillo"
+		],
+		"creationDate": 1981,
+		"firstAlbum": "22-08-1987",
+		"datesLocations": null
+	},
+	{
+		"id": 46,
+		"image": "https://groupietrackers.herokuapp.com/api/images/coldplay.jpeg",
+		"name": "Coldplay",
+		"members": [
+			"Chris Martin",
+			"Guy Berryman",
+			"Jonny Buckland",
+			"Will Champion"
+		],
+		"creationDate": 1996,
+		"firstAlbum": "22-07-2000",
+		"datesLocations": null
+	},
+	{
+		"id": 47,
+		"image": "https://groupietrackers.herokuapp.com/api/images/maroon5.jpeg",
+		"name": "Maroon 5",
+		"members": [
+			"Adam Levine",
+			"Jesse Carmichael",
+			"Mickey Madden",
+			"James Valentine",
+			"Matt Flynn",
+			"PJ Morton",
+			"Sam Farrar"
+		],
+		"creationDate": 1994,
+		"firstAlbum": "31-01-2004",
+		"datesLocations": null
+	},
+	{
+		"id": 48,
+		"image": "https://groupietrackers.herokuapp.com/api/images/twentyonepilots.jpeg",
+		"name": "Twenty One Pilots",
+		"members": [
+			"Tyler Joseph",
+			"Josh Dun"
+		],
+		"creationDate": 2009,
+		"firstAlbum": "14-09-2013",
+		"datesLocations": null
+	},
+	{
+		"id": 49,
+		"image": "https://groupietrackers.herokuapp.com/api/images/therollingstones.jpeg",
+		"name": "The Rolling Stones",
+		"members": [
+			"Mick Jagger ",
+			"Keith Richards",
+			"Charlie Watts",
+			"Ron Wood"
+		],
+		"creationDate": 1962,
+		"firstAlbum": "31-07-1963",
+		"datesLocations": null
+	},
+	{
+		"id": 50,
+		"image": "https://groupietrackers.herokuapp.com/api/images/muse.jpeg",
+		"name": "Muse",
+		"members": [
+			"Matthew Bellamy",
+			"Christopher Wolstenholme",
+			"Dominic Howard "
+		],
+		"creationDate": 1994,
+		"firstAlbum": "26-06-1999",
+		"datesLocations": null
+	},
+	{
+		"id": 51,
+		"image": "https://groupietrackers.herokuapp.com/api/images/foofighters.jpeg",
+		"name": "Foo Fighters",
+		"members": [
+			"Dave Grohl",
+			"Nate Mendel",
+			"Taylor Hawkins",
+			"Chris Shiflett",
+			"Pat Smear",
+			"Rami Jaffee"
+		],
+		"creationDate": 1994,
+		"firstAlbum": "01-07-1995",
+		"datesLocations": null
+	},
+	{
+		"id": 52,
+		"image": "https://groupietrackers.herokuapp.com/api/images/thechainsmokers.jpeg",
+		"name": "The Chainsmokers",
+		"members": [
+			"Alexander Pall",
+			"Andrew Taggart",
+			"Matt McGuire",
+			"Tony Ann"
+		],
+		"creationDate": 2008,
+		"firstAlbum": "15-03-2014",
+		"datesLocations": null
+	}
+]

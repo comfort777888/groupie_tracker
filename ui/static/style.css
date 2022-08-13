@@ -1,0 +1,135 @@
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{ 
+    background: #e9c7d8;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(./img/fon.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Cinzel', serif;
+    background-position: center;
+}
+
+.header {
+    color: #e74e6c;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.header{
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px rgb(97, 96, 96);
+    border-radius: 50%;
+    padding: 44px;
+    height: 150px;
+    transition: all 0.2s ease;
+}
+.card:hover{
+    padding: 50px;
+}
+
+.link {
+    margin: 10px;
+}
+
+
+.artist{
+    font-size: 15px;
+    display: grid;
+    display:  inline-grid;
+    margin: 8px;
+    border-radius: 50%;
+}
+.column { 
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+} 
+
+.footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    border-radius: 27%;
+}
+
+@media (max-width: 450px){
+    .header {
+        font-size: 28px;
+    }
+}
+
+.sidenav {
+    width: 100%; /* Set the width of the sidebar */
+    display: flex;
+    padding-bottom: 20px;
+  
+}
+
+.sidenav input{
+    padding: 5px 0;
+    background-color:transparent;
+    border: 1px solid #c9e8e3;
+    box-shadow: 0 0 15px rgb(97, 96, 96);
+    font-family: 'Cinzel', serif;
+    /* width: 150px;
+    height: 50px; */
+    /* border-radius: 25%; */
+}
+.buttonsubmit{
+    padding: 5px 10px;
+    box-shadow: 0 0 15px rgb(97, 96, 96);
+    border: 1px solid #c9e8e3;
+    font-family: 'Cinzel', serif;
+    color: #e74e6c;
+    background-color:#c9e8e3 ;
+    transition: all 0.2s ease;
+}
+.buttonsubmit:hover{
+    color: #c9e8e3;
+    background-color:#fec2c2 ;
+    /* border: 1px solid #fec2c2; */
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    /* .sidenav a {font-size: 18px;} */
+}

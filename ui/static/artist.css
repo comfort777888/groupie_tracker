@@ -1,0 +1,91 @@
+body {
+    /* background: #e9c7d8; */
+    background-image: url(./img/backphoto.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Cinzel', serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 108px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 0 15px rgb(97, 96, 96);
+    border-radius: 15px;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.artist-img {
+    width: 350px;
+    border-radius: 15px;
+    border-radius: 50%;
+}
+
+.artist {
+    font-size: 35px;
+    color: #e74e6c;
+    
+}
+
+p {
+    font-size: 20px;
+}
+
+.members {
+font-size: 20px;
+color:#152523;
+}
+
+.members-item {
+    display: block;
+    margin-bottom: 7px;
+}
+.relation{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 31px;
+}
+.footer{
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+}
+.home-page{
+    display: block;
+    justify-content: center;
+
+}
+.project{
+    display: block;
+    justify-content: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media (max-width: 590px) {
+    .card {
+        max-width: 310px;
+    }
+
+    .artist-img {
+        max-width: 200px;
+    }
+}

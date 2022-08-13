@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='icon' type='image/png' href='static/favi.png'>
+    <link rel='stylesheet' href='static/style.css'> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&display=swap" rel="stylesheet">     <title>Groupie Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header">Groupie-tracker</h1>
+        </header>
+        <div class="sidenav">
+            <form action="/search" class="forma">
+                <input type="text" list="search-text" placeholder=" Search.." name="send" id="send" /> 
+                <button type="submit" value="send" class="buttonsubmit">Search</button>
+            </form>
+                    <datalist id="search-text">
+                        {{range .Artist}}
+                        <option value="{{.Name}}">{{.Name}} - artist/band</option>
+                        <option value="{{.CreationDate}}">{{.CreationDate}} - creation date</option>
+                        
+                        <option value="{{.FirstAlbum}}">{{.FirstAlbum}} -first album</option>
+                        {{range $key, $value := .Members}}
+                        <option value="{{$value}}">{{$value}} - members</option>
+                        {{end}}
+                        {{range $key, $value := .DatesLocations}}
+                        <option value="{{$key}}">{{$key}} -location</option>
+                        <option value="{{$value}}">{{$value}} -location</option>
+                        {{end}}
+                        {{end}}
+                    </datalist>
+        
+    </div>
+            <div class="column">
+            {{range .Artist}}
+            <a href="artist/{{.ID}}" class="link">
+                <div class="card">
+                    <!-- <p class="artist">{{.Name}}</p> -->
+                    <img src="{{.Image}}" class="artist">
+                    <p class="artist-link">{{.Name}}</p>
+                </div>
+            </a>
+            {{else}}
+            <div class="column"><h1>Not found</h1></div>
+            </div>  
+            {{end}}
+            
+    </div>
+
+
+
+    
+
+    <footer>
+        <nav>
+        <div class="footer">
+            <a href="https://01.alem.school/git/M.a_k/groupie-tracker" class="home">Project</a>
+        </div>
+        </nav>
+    </footer>
+</body>
+</html>
